@@ -1,0 +1,277 @@
+:root {
+    --primary-color: rgba(236, 220, 220, 0.301);
+    --nav-bg: #fbf7dfd7;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--primary-color);
+    background-image: url("../images/logo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    background-color: rgb(245, 242, 219);
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+.row-container img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+}
+.row-container img{
+    width: 200px;
+    height: 150px;
+    border-radius: 30%;
+}
+nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 25px;
+    background-color: var(--nav-bg);
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 12px;
+    color: rgb(28, 28, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+
+.name-box {
+    background-color: rgb(254, 251, 230);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+footer{
+    background-color: #f4efd0;
+    color: black;
+margin-top: auto;
+padding: 20px;
+text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea, select {
+    width: 100;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px;
+    border-radius: 8px;
+}
+fieldset{
+    border: 2px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4efd0;
+}
+legend{
+    font-weight: bold;
+    color: black;
+    padding: 0 10[px]; 
+}
+.contact-help{
+    padding: 40px;
+    margin: 20px;
+    border-bottom: 1px solid gainsboro;
+    background-color: #f4efd0;
+}
+.faq{
+    color: black;
+    text-align: center;
+    background-color: #f4efd0;
+}
+    
+     .question{
+    background-color: #f4efd0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px;
+    padding-bottom: 10px;
+}
+.help{
+    background-color: #f4efd0;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.logo{
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.about{
+    background-color: #f4efd0;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.member{
+    background-color: #f4efd0;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid#000000;
+    border-radius: 10px;
+}
+.team{
+    background-color: #f4efd0;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    width: fit-content;
+    border: 10%;
+}
+.name{
+       background-color: #f4efd0;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.text-content{
+    background-color: #f4efd0;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.member{
+     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+}
+.rooms img{
+     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+    width: 300px;
+    height: 150px;
+}
+.front-hotel img{
+     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+    width: 300px;
+    height: 150px;
+    flex-direction: column-reverse;
+    float: left;
+    margin: px;
+}
+.front-hotel video{
+       display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+    width: 700px;
+    height: 300px;
+    flex-direction: column-reverse;
+}
+.map-container{
+    padding: 30px;
+    
+    text-align: center;
+    border-radius: 10px;
+}
+.map-container iframe{
+    border: 2px solid #b8860b;
+    border-radius: 15px;
+}
+.map-container iframe{
+    flex: 1;
+    min-width: 100px
+}
+.phone.number{
+    background-color: #b8860b;
+    
+}
+.member img{
+     width: 90px;
+    height: 70px;
+    border-radius: 10%;
+}.ID{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+}
+.booking{
+     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start
+     }

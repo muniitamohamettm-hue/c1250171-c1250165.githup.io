@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Salaam Hotel</title>
+    <link rel="stylesheet" href="css.styl/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo
+    ">
+        <h2>Salaam Hotel</h2>
+    </div>
+ <nav>
+                <a href="index.html"> <img src="images/index.jpeg" alt=""></a>
+                <a href="about.html"><img src="images/about.jpeg" alt=""></a>
+                <a href="rooms.html"> <img src="images/rooms.jpeg" alt=""></a>
+                <a href="gellery.html"><img src="images/gallary.jpeg" alt=""></a>
+                <a href="booking.html"> <img src="images/booking.jpeg" alt=""></a>
+                <a href="help.html"> <img src="images/help.jpeg" alt=""></a>
+                <a href="contect.html"> <img src="images/contect.jpeg" alt=""></a>
+            
+        </nav>
+
+</header>
+
+<section class="booking">
+
+<h1>Room Booking Form</h1>
+</section>
+
+<form action="#" method="post">
+
+<fieldset>
+
+<legend>Guest Information</legend>
+
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name"
+placeholder="Enter your full name"
+required minlength="3">
+
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email"
+placeholder="example@gmail.com"
+required>
+
+<label for="password">Password</label>
+<input type="password" id="password" name="password"
+placeholder="Create password"
+required minlength="6">
+
+<label for="phone">Phone Number</label>
+<input type="text" id="phone" name="phone"
+placeholder="+25261XXXXXXX"
+pattern="[0-9+ ]{8,15}"
+required>
+
+<label for="checkin">Check In Date</label>
+<input type="date" id="checkin" name="checkin" required>
+
+<label for="checkout">Check Out Date</label>
+<input type="date" id="checkout" name="checkout" required>
+
+<label for="room">Room Type</label>
+
+<select id="room" name="room">
+
+<option>Select Room</option>
+<option>Single Room</option>
+<option>Double Room</option>
+<option>Deluxe Room</option>
+<option>Luxury Suite</option>
+
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Payment Method</legend>
+
+<input type="radio" id="cash" name="payment">
+<label for="cash">Cash</label>
+
+<input type="radio" id="card" name="payment">
+<label for="card">Credit Card</label>
+
+<input type="radio" id="mobile" name="payment">
+<label for="mobile">Mobile Payment</label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Extra Services</legend>
+
+<input type="checkbox" id="wifi">
+<label for="wifi">Free Wi-Fi</label><br>
+
+<input type="checkbox" id="breakfast">
+<label for="breakfast">Breakfast</label><br>
+
+<input type="checkbox" id="airport">
+<label for="airport">Airport Pickup</label><br>
+
+<input type="checkbox" id="pool">
+<label for="pool">Swimming Pool</label>
+
+</fieldset>
+
+<br>
+
+<label for="message">Special Request</label>
+
+<textarea id="message"
+rows="6"
+placeholder="Write your message here..."></textarea>
+
+<br><br>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Salaam Hotel | Email: info@salaamhotel.com | Phone: +252 61 1234567
+</p>
+
+</footer>
+
+</body>
+</html>
